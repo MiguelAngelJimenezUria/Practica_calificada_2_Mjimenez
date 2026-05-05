@@ -1,0 +1,6 @@
+@Practica_calificada_2_Mjimenez_HostAddress = http://localhost:5024
+
+GET {{Practica_calificada_2_Mjimenez_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
