@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Practica_calificada_2_Mjimenez.props" />
+</Project>

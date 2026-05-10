@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/OrderService (snapshot).cs">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/OrderService (snapshot).cs" />
+              <option name="originalContent" value="using Practica_calificada_2_Mjimenez.Models;&#10;&#10;namespace Practica_calificada_2_Mjimenez.Service;&#10;&#10;public class OrderService: IOrderService &#10;{&#10;    public async Task&lt;IEnumerable&lt;Order&gt;&gt; GetAllOrdersAndDetails() {&#10;       throw new NotImplementedException();&#10;    }&#10;}" />
+              <option name="updatedContent" value="using Microsoft.EntityFrameworkCore;&#10;using Practica_calificada_2_Mjimenez.Models;&#10;&#10;namespace Practica_calificada_2_Mjimenez.Service;&#10;&#10;public class OrderService : IOrderService&#10;{&#10;    private readonly AppDbContext _context;&#10;&#10;    public OrderService(AppDbContext context)&#10;    {&#10;        _context = context;&#10;    }&#10;&#10;    public async Task&lt;IEnumerable&lt;Order&gt;&gt; GetAllOrdersAndDetails()&#10;    {&#10;        return await _context.Orders&#10;            .Include(o =&gt; o.Client)&#10;            .Include(o =&gt; o.Orderdetails)&#10;                .ThenInclude(od =&gt; od.Product)&#10;            .ToListAsync();&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
