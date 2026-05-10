@@ -1,0 +1,57 @@
+﻿## .NET / C#
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+
+## Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+## VS Code
+.vscode/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+!**/packages/build/
+
+## ASP.NET
+appsettings.Development.json
+
+## Archivos de publicación
+**/publish/
+**/PublishProfiles/
+
+## Archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## Certificados y secretos
+*.pfx
+*.key
+*.pem
+secrets.json
+

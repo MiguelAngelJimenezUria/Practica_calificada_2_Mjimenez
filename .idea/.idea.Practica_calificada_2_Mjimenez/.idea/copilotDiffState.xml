@@ -12,6 +12,14 @@
             </PendingDiffInfo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/.gitignore" />
+              <option name="updatedContent" value="## .NET / C#&#10;bin/&#10;obj/&#10;*.user&#10;*.suo&#10;*.userosscache&#10;*.sln.docstates&#10;*.vs/&#10;&#10;## Rider / JetBrains&#10;.idea/&#10;*.DotSettings.user&#10;&#10;## VS Code&#10;.vscode/&#10;&#10;## Build results&#10;[Dd]ebug/&#10;[Rr]elease/&#10;x64/&#10;x86/&#10;[Aa][Rr][Mm]/&#10;[Aa][Rr][Mm]64/&#10;bld/&#10;[Bb]in/&#10;[Oo]bj/&#10;[Ll]og/&#10;[Ll]ogs/&#10;&#10;## NuGet&#10;*.nupkg&#10;*.snupkg&#10;project.lock.json&#10;project.fragment.lock.json&#10;artifacts/&#10;packages/&#10;!**/packages/build/&#10;&#10;## ASP.NET&#10;appsettings.Development.json&#10;&#10;## Archivos de publicación&#10;**/publish/&#10;**/PublishProfiles/&#10;&#10;## Archivos de sistema&#10;Thumbs.db&#10;ehthumbs.db&#10;Desktop.ini&#10;.DS_Store&#10;&#10;## Certificados y secretos&#10;*.pfx&#10;*.key&#10;*.pem&#10;secrets.json&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
